@@ -1,0 +1,9 @@
+<!DOCTYPE mapper SYSTEM "mybatis-3-mapper.dtd">
+<mapper namespace="net.snack.UserMapper">
+    <select id="listUser" resultType="net.snack.User">
+        select * from user
+    </select>
+    <select id="listData" resultType="java.util.Map">
+        select * from user
+    </select>
+</mapper>

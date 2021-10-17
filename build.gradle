@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'net.snack'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.mybatis:mybatis:3.5.7'
+    implementation 'mysql:mysql-connector-java:8.0.25'
+}
+
+test {
+    useJUnitPlatform()
+}
